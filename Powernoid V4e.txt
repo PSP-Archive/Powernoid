@@ -1,0 +1,109 @@
+
+Powernoid V4e - Art 2009!
+
+
+Hi Guys,
+
+Powernoid is my homage to the Amiga family of comuters. It's a Breakout clone with powerup features.
+This game was inspired by MegaBall, a game I use to play on the Amiga CD32 which also 
+inspired DX-Ball for Windows.
+
+Powernoid is coded from scratch. The program itself is entirely my original work with the exception
+of the Intrafont library by BenHur used for printing text to the screen, and sounds that were
+scavenged from various free sources on the internet, and In game music by Drax.
+
+The idea is to destroy all bricks on each level by hitting the ball toward them with the paddle.
+As the player progresses through the levels, some powerups are available to make this job easier.
+Some bad powerups also make the game harder! 100 points is also awarded for hitting a powerup brick.
+
+Unlike the games mentioned above, powerups in this game remain active as the player progresses through
+stages, and can accumulate, but all powerups are reset when a life is lost.
+
+The player begins the game with three lives, each of which is lost when a ball is missed.
+The game is over when all three lives are lost. An extra life can be gained by hitting an extra life
+powerup brick. One will randomly appear in any 1 of the 15 stages, and another will appear in one of
+the first five stages. Both appear in a random position on the third row of bricks.
+
+In any stage when only one brick is left on the screen, a timer begins. If the timer reaches a set
+time before the last brick is hit (approximately 10 seconds), the brick will explode, and 100 points
+will be awarded. You may like to avoid hitting the last brick in any stage to achieve this goal.
+
+Powernoid was tested with 3.52 M33 firmware, but is expected to work with any homebrew firmware.
+
+Controls are simle.
+Move the paddle left or right with either the analogue stick or the D pad.
+You can fire missiles with the Cross button if the missile powerup is active.
+You can pause the game and see the score at any time by pressing the HOME button.
+This actually pauses the game for a little even after you select "No" and return to the game,
+so you are not unfairly caught off guard when the game restarts.
+
+Cheats!!!
+There are a couple of cheats used for development have been left in the released version of the game.
+If you press Up and Triangle at the same time, every good powerup will be activated at once.
+If you press Up and Circle at the same time, both bad powerups will be activated at once.
+Any high scores achieved with these cheats will not be saved to the Memory Stick.
+
+Tip!!
+If you hold left just before stage 6 or 15 start, you will avoid the ball hitting red bricks right away.
+YOu still need to avoid them for the rest of the stage though!
+
+
+Cheers, Art.
+
+bmar8190@bigpond.net.au
+
+Powernoid V4e (07/02/09):
+Black and white death screen implemented to fall in line with the Windows DX-Ball game.
+Last brick blows up if it is in play for too long to fall in line with Windows DX-Ball game.
+Some code optimisation.
+
+Powernoid V4d (11/01/09):
+Fixed bug that prevented stages from repeating after stage 15.
+Added option to toggle in game music with up and down buttons.
+
+Powernoid V4c (01/01/09):
+Implemented Mikmod player for in game music.
+One more extra life powerup brick added to game.
+Improvement to sound routine so powerup samples are always played.
+Increased pause duration between stages, new ball in play, and game pause with Home button.
+Small display bug fix for game over where extra life powerup brick is displayed.
+Change to high score encryption so the save file is incompatible with previous versions.
+
+Powernoid V4b (01/01/09):
+Bullets on either side of paddle now operate independently.
+Fixed collision detection for powerup bricks that have multiple colours.
+Moving barriers implemented in some stages.
+Moving bricks implemented in stage 2.
+Added Megaball style powerup description screen to intro.
+Added powerup brick for extra life.
+Change to high score encryption so the save file is incompatible with previous versions.
+
+Powernoid V4 (31/12/08):
+Fixed two bugs in stage 15.
+Fixed screen flicker on intro and game over screens.
+The second ball can now activate powerup bricks if it is in play.
+Change to high score encryption so the save file is incompatible with previous versions.
+New original wobbly ball bad powerup introduced in stage 6.
+
+Powernoid V3b (04/12/08):
+Fixed control of ball direction with the paddle which was broken in a previous release.
+
+Powernoid V3 (03/12/08):
+Improved collision detection by checking the edge of the ball in the direction it is travelling.
+Paddle movement made slightly faster, and ball turns red when fireball powerup is active.
+Added powerups to two more stages so every odd stage now has a powerup available.
+Change made to second ball behaviour in multiball mode.
+Change to high score encryption so the save file is incompatible with previous version.
+
+Powernoid V2 (27/11/08):
+Change to multiball powerup behaviour, the ball now splits in two when a player gets this powerup.
+Player no longer loses a life if the multiball powerup is active, and one of the two balls is lost.
+Difficulty is increased by slightly speeding up the ball movement compared with the first version.
+Program keeps track of highest score with an encrypted save file.
+Added extra type of brick that causes bricks to move down every time the ball is hit with the paddle.
+Extra life can now be gained by passing stage 15, and any other 15 stages after that.
+Changed some characteristics to give the paddle some control of ball direction as in Windows DX_Ball.
+
+Powernoid V1 (19/11/08):
+First release written from scratch in two days.
+
